@@ -37,3 +37,13 @@ end
 group :production do
   gem 'rails_12factor'
 end
+
+group :test do
+  gem 'cucumber-rails', '~> 1.4', '>= 1.4.3', require: false
+  gem 'capybara', '~> 2.6', '>= 2.6.2'
+  gem 'database_cleaner', '~> 1.5', '>= 1.5.1'
+  gem 'selenium-webdriver', '~> 2.52'
+  gem 'poltergeist', '~> 1.9'
+  gem 'rspec'
+end
+
