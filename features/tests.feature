@@ -1,3 +1,4 @@
+@javascript
 Feature: Test web interface
   Scenario: The test is valid
     Given I visit the website
